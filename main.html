@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Capital City Quizz</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+<div class="main">
+
+<h1>the_test.com</h1>
+<hr>
+
+<h2>Please answer the following questions:</h2>
+<p id = "statement">Q1: Statement</p>
+<div class = "container">
+  <div><button id="previousQ" type="button" disabled = "true"> &lt; &lt;</button></div>
+  <div>
+  <form id = "optionForm">
+    <input id="radio1" type="radio" name = "option" value = "1">
+    <label id="opt1">Option 1</label>
+    <input id="radio2" type="radio" name = "option" value = "2">
+    <label id="opt2">Option 2</label>
+    <input id="radio3" type="radio" name = "option" value = "3">
+    <label id="opt3">Option 3</label>
+  </form>
+  </div>
+  <div><button id="nextQ" type="button" >&gt; &gt;</button></div>
+</div>
+<button id = "submitAnswers" type="button">Submit Answers!</button>
+<script src="main.js"></script>
+<script src="tracker.js"></script>
+
+</body>
+
