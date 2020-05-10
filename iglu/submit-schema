@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://192.168.99.1:8080/myRepo/submit_schema/1-0-0",
+  "title": "Submit Test Answers",
+  "description": "A student has submitted a test",
+  "type": "object",
+  "properties": {
+    "userID": {
+      "description": "The unique identifier for a student",
+      "type": "string"
+    },
+    "testID": {
+      "description": "The unique identifier for a test",
+      "type": "string"
+    }
+    "timeTaken": {
+      "description": "Time taken to do the test, in milliseconds",
+      "type": "int"
+    }
+    "eventTime": {
+      "description": "Time when the event was recorded since UNIX epoch",
+      "type": "date-time"
+    }
+    "answers": {
+      "description": "The student's answers",
+      "type": array
+    }
+  },
+  "required": [ "studentId, testId, eventTime" ]
+}
+
