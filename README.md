@@ -18,7 +18,7 @@ The JavaScript tracker was set up and provided with the username using 'setUserI
          
   - Structured events: Test navigation tracking. It sends information when the left or right buttons of the test are pressed. It could be combined with form tracking and activity tracking to fully understand what question the user is in at each moment in time.
   
-  - Self-describing events: The capabilities of the self-describing event feature were explored. This feature allows for every field and data type of the JSON sent by the tracker to be personalised. This way, a self-describing event is sent when the user clicks "Submit Answers" informing among other things how long the user took to complete the test, and the answers submitted. For the self-describing event to be received properly by the collector, a JSON Schema had to be defined for the event. The "iglu" folder in this repository shows a private iglu repository with a schema describing this event.
+  - Self-describing events: The capabilities of the self-describing event feature were explored. This feature allows for every field and data type of the JSON sent by the tracker to be personalised. This way, a self-describing event is sent when the user clicks "Submit Answers", informing among other things how long the user took to complete the test, and the answers submitted. For the self-describing event to be received properly by the collector, a JSON Schema had to be defined for the event. The "iglu" folder in this repository shows a private iglu repository with a schema describing this event.
  
 ## TODO list:
   - Use snowplow micro to build a test suite that covers all edge cases and ensures the app and tracker work as expected.
