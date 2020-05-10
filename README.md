@@ -4,7 +4,7 @@ This app built using HTML and JavaScript was created to experiment with Snowplow
 The app consits of a simple multiple choice test where a fictional user "John_Smith1999" has been logged in and asked to complete the test. The user can select an answer to several questions. Then, when the "submit answers" button is pressed, the user is redirected to a "test_completed" page. A "tracker.js" file was added to the app to handle the tracker.
 
 ## How to use:
-  - Set up [snowplow micro](https://github.com/snowplow-incubator/snowplow-micro/), or another collector of your choice, and change <<COLLECTOR_URL>> in line 6 of tracker.js
+  - Set up [snowplow micro](https://github.com/snowplow-incubator/snowplow-micro/), or another collector of your choice, and change <<COLLECTOR_URL>> in line 8 of tracker.js
   - Clone this repository.
   - Open app/main.html in your browser.
 
