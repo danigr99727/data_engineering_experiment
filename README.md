@@ -8,7 +8,8 @@ The app consits of a simple multiple choice test where a fictional user "John_Sm
   - Clone this repository.
   - Open app/main.html in your browser.
 
-The tracker was set up and provided with the username using 'setUserId'. Then, three different types of tracking events were explored:
+## Tracker features implemented:
+The JavaScript tracker was set up and provided with the username using 'setUserId'. Then, three different types of tracking events were explored:
   - Automatic tracking:
     - Page view tracking: Sends information when the user first visits "main.html"
     - Form tracking: Reacts to any changes in the radio buttons of the mutliple choice test. 
