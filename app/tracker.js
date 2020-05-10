@@ -5,7 +5,7 @@
     n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","sp.js","snowplow"));
 
 //Set up and configure new tracker    
-window.snowplow('newTracker', 'cf', '192.168.99.100:9090', { // Initialise a tracker
+window.snowplow('newTracker', 'cf', '<<COLLECTOR_URL>>', { // Initialise a tracker
   appId: 'test',
   cookieDomain: 'the_test.com',
   forceSecureTracker: false
